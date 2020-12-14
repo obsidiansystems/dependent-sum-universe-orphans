@@ -1,5 +1,5 @@
 name:                dependent-sum-universe-orphans
-version:             0.1.0.0
+version:             0.1.0.1
 license:             BSD3
 license-file:        LICENSE
 author:              Obsidian Systems LLC
@@ -18,7 +18,7 @@ tested-with:
 library
   exposed-modules:     
     Data.Some.Universe.Orphans
-  build-depends: base >=4.10 && < 4.13
+  build-depends: base >=4.9 && < 4.13
                , dependent-sum >= 0.4.1 && < 0.7
                , universe >= 1 && < 2
   hs-source-dirs:      src
